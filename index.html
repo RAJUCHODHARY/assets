@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+        }
+
+        .left,
+        .right {
+            width: 50%;
+            height: 100vh;
+        }
+
+        .left {
+            background-image: url('drummer.avif');
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .left h1 {
+            font-size: 55px;
+            color: red;
+            font-weight: bold;
+        }
+
+        .div {
+            margin: 10px;
+            width: 250px;
+            height: 310px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .right {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+
+        }
+
+        .img {
+            width: 90%;
+            height: 90%;
+            object-fit: cover;
+        }
+
+        p {
+            display: none;
+        }
+
+        .bgnone {
+            position: absolute;
+            font-size: 120px;
+            font-weight: bold;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="left">
+            <h1>hello my project view</h1>
+        </div>
+        <div class="right"></div>
+    </div>
+
+    <script src="script.js">
+      
+    </script>
+</body>
+
+</html>
